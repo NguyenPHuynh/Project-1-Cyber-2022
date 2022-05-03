@@ -5,9 +5,10 @@ The files in this repository were used to configure the network depicted below.
 
 <img width="804" alt="Project1_NetworkTopologies" src="https://user-images.githubusercontent.com/104466052/166391308-e52071e7-5e77-41cb-8c48-ff32ec26c0d5.png">
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - https://github.com/NguyenPHuynh/Project-1-Cyber-2022/blob/e3ef6b1e409ae8bf45b14f3f31cc7d3a17d3afb2/install-elk.yml
+  - [Install Elk](https://github.com/NguyenPHuynh/Project-1-Cyber-2022/blob/e3ef6b1e409ae8bf45b14f3f31cc7d3a17d3afb2/install-elk.yml)
+  - 
 
 This document contains the following details:
 - Description of the Topologu
