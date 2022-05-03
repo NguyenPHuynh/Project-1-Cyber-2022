@@ -81,10 +81,6 @@ The following screenshot displays the result of running `docker ps` after succes
 <img width="592" alt="ScreenShot of Docker PS" src="https://user-images.githubusercontent.com/104466052/166586492-5f9ca2f0-fcbe-40f1-a460-55ad8320b21c.png">
 
 
-
-
-
-
 *** Target Machines & Beats ***
 
 This ELK server is configured to monitor the following machines:
@@ -100,18 +96,13 @@ These Beats allow us to collect the following information from each machine:
 
 - Filebeat will monitors and send log files to kibana. Filbeat monitors and collects log event on specificed servers. 
 
-<font size="20"> *** Using the Playbook *** </font>
+*** Using the Playbook ***
 
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Copy the filebeat-configuration.yml file to ELK VM.
+- Update the hosts file to include 10.2.0.7, 10.2.0.8, 10.3.0.4
+- Run the playbook, and navigate to Kibana (http://20.53.254.249:5601/) to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+$ ansible-playbook filebeat-playbook.yml
