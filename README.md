@@ -7,9 +7,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [Install Elk](https://github.com/NguyenPHuynh/Project-1-Cyber-2022/blob/e3ef6b1e409ae8bf45b14f3f31cc7d3a17d3afb2/install-elk.yml)
-  - [Filebeat Playbook](https://github.com/NguyenPHuynh/Project-1-Cyber-2022/blob/96e7f959ecbe1962e6fa8ade3c57f0b2512e232c/filebeat-playbook.yml)
-  - [Metricbeat Playbook](https://github.com/NguyenPHuynh/Project-1-Cyber-2022/blob/96e7f959ecbe1962e6fa8ade3c57f0b2512e232c/metricbeat-playbook.yml)
+  - [Install Elk](https://github.com/NguyenPHuynh/Project-1-Cyber-2022/blob/03941433fb27263cca6cb4cf65b9cb77fb235ebe/Ansible/install-elk.yml)
+  - [Filebeat Playbook](https://github.com/NguyenPHuynh/Project-1-Cyber-2022/blob/03941433fb27263cca6cb4cf65b9cb77fb235ebe/Ansible/filebeat-playbook.yml)
+  - [Metricbeat Playbook](https://github.com/NguyenPHuynh/Project-1-Cyber-2022/blob/03941433fb27263cca6cb4cf65b9cb77fb235ebe/Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -66,7 +66,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible can be run from the command line and ensure our scripts run indentically everywhere.
 
-[Elk install File](https://github.com/NguyenPHuynh/Project-1-Cyber-2022/blob/96e7f959ecbe1962e6fa8ade3c57f0b2512e232c/install-elk.yml)
+[Elk install File](https://github.com/NguyenPHuynh/Project-1-Cyber-2022/blob/03941433fb27263cca6cb4cf65b9cb77fb235ebe/Ansible/install-elk.yml)
 
 The playbook implements the following tasks:
 - Install docker.io
